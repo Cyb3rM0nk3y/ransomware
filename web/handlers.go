@@ -6,7 +6,7 @@ import (
 	"net/http"
 
 	"github.com/labstack/echo"
-	"github.com/mauri870/ransomware/repository"
+	"github.com/Cyb3rM0nk3y/ransomware/repository"
 )
 
 type Engine struct {
