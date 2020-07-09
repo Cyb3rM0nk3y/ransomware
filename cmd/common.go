@@ -7,8 +7,8 @@ import (
 	"runtime"
 	"sync"
 
-	"github.com/mauri870/ransomware/cryptofs"
-	"github.com/mauri870/ransomware/utils"
+	"github.com/Cyb3rM0nk3y/ransomware/cryptofs"
+	"github.com/Cyb3rM0nk3y/ransomware/utils"
 )
 
 var (
