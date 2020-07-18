@@ -20,7 +20,9 @@ type File struct {
 // sending then to dst
 func (file *File) Encrypt(enckey string, dst io.Writer) error {
 	// Open the file read only
-	inFile, err := os.Open(file.Path)
+	//inFile, err := os.Open(file.Path)
+	//open the file with read_write access for testing..
+	inFile, err := os.Open(file.Path, os.O_RDWR, 0644)
 	if err != nil {
 		return err
 	}
