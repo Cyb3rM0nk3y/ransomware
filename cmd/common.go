@@ -24,6 +24,9 @@ var (
 	// Folders to skip
 	SkippedDirs = []string{
 		"ProgramData",
+		"Binalyze",
+		"KnowBe4",
+		"BGinfo",
 		"Windows",
 		"bootmgr",
 		"$WINDOWS.~BT",
